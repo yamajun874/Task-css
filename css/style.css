@@ -1,0 +1,47 @@
+h1,li {
+  color: blue;
+}
+
+li {
+  float: left;
+  font-weight: bold;
+  margin: 15px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 48px;
+  padding: 20px;
+  margin: 0 30px;
+}
+
+p {
+  font-size: 60px;
+  text-align: bottom;
+  position: relative;
+  top: 275px;
+}
+
+main {
+  margin: 25px;
+}
+
+.content {
+  background: darkblue;
+  position: relative;
+  top: 210px;
+  width: 70%;
+  height: 190px;
+}
+
+.pics {
+  position:absolute;
+  bottom: 90px;
+  left: 71%;
+}
+
+.pics img {
+  width: 650px;
+}
