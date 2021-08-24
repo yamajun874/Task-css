@@ -1,11 +1,16 @@
-h1,li {
+h1,
+li {
   color: blue;
 }
 
 li {
   float: left;
   font-weight: bold;
-  margin: 15px;
+  /* margin: 15px; */
+}
+
+li:not(:last-child) {
+  margin-right: 30px;
 }
 
 header {
@@ -13,8 +18,10 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
-  padding: 20px;
-  margin: 0 30px;
+  width: 100%;
+  margin-bottom: 30px;
+  /* padding: 20px; */
+  /* margin: 0 30px; */
 }
 
 p {
@@ -24,24 +31,27 @@ p {
   top: 275px;
 }
 
-main {
+/* main {
   margin: 25px;
-}
+} */
 
 .content {
   background: darkblue;
   position: relative;
   top: 210px;
   width: 70%;
-  height: 190px;
+  height: 200px;
 }
 
-.pics {
+/* .pics {
   position:absolute;
   bottom: 90px;
   left: 71%;
-}
+} */
 
 .pics img {
-  width: 650px;
+  width: 70%;
+  position: absolute;
+  bottom: 90px;
+  left: 71%;
 }
